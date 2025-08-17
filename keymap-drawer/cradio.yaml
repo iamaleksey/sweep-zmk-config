@@ -1,0 +1,161 @@
+layout: {zmk_keyboard: cradio}
+layers:
+  base:
+  - Q
+  - W
+  - F
+  - P
+  - B
+  - J
+  - L
+  - U
+  - Y
+  - ;
+  - {t: A, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: R, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: S, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: T, h: '$$mdi:apple-keyboard-shift$$'}
+  - G
+  - M
+  - {t: N, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: E, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: I, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: O, h: '$$mdi:apple-keyboard-control$$'}
+  - Z
+  - X
+  - C
+  - {t: D, h: '$$mdi:rocket$$'}
+  - V
+  - K
+  - {t: H, h: '$$mdi:rocket$$'}
+  - ','
+  - .
+  - /
+  - {t: '$$mdi:keyboard-tab$$', h: num}
+  - {t: '$$mdi:keyboard-space$$', h: sym}
+  - {t: '$$mdi:keyboard-space$$', h: sym}
+  - {t: '$$mdi:keyboard-return$$', h: nav}
+  num:
+  - F1
+  - F2
+  - F3
+  - F4
+  - {type: none}
+  - {type: none}
+  - '1'
+  - '2'
+  - '3'
+  - {type: none}
+  - F5
+  - F6
+  - F7
+  - F8
+  - {type: none}
+  - {type: none}
+  - '4'
+  - '5'
+  - '6'
+  - '0'
+  - F9
+  - F10
+  - F11
+  - F12
+  - {type: none}
+  - {type: none}
+  - '7'
+  - '8'
+  - '9'
+  - {type: none}
+  - {type: held}
+  - {type: none}
+  - {t: '$$mdi:keyboard-space$$', h: sym}
+  - {t: '$$mdi:keyboard-return$$', h: nav}
+  sym:
+  - '~'
+  - ^
+  - '&'
+  - '|'
+  - {type: none}
+  - {type: none}
+  - _
+  - '!'
+  - $
+  - '@'
+  - '*'
+  - +
+  - (
+  - )
+  - {type: none}
+  - {type: none}
+  - '-'
+  - '='
+  - '"'
+  - ''''
+  - '#'
+  - '%'
+  - '{'
+  - '}'
+  - {type: none}
+  - {type: none}
+  - '['
+  - ']'
+  - '`'
+  - \
+  - {type: none}
+  - {type: held}
+  - {type: none}
+  - {t: '$$mdi:keyboard-return$$', h: nav}
+  nav:
+  - {t: '$$mdi:lightbulb-on-outline$$', h: '$$mdi:minus$$'}
+  - {t: '$$mdi:lightbulb-on-outline$$', h: '$$mdi:plus$$'}
+  - $$mdi:volume-low$$
+  - $$mdi:volume-high$$
+  - {type: none}
+  - $$mdi:transfer-up$$
+  - $$mdi:transfer-left$$
+  - $$mdi:arrow-up-bold$$
+  - $$mdi:transfer-right$$
+  - $$mdi:backspace-reverse-outline$$
+  - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-option$$
+  - $$mdi:apple-keyboard-command$$
+  - $$mdi:apple-keyboard-shift$$
+  - {type: none}
+  - $$mdi:transfer-down$$
+  - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-down-bold$$
+  - $$mdi:arrow-right-bold$$
+  - $$mdi:backspace-outline$$
+  - {h: '1', s: '$$mdi:bluetooth-connect$$'}
+  - {h: '2', s: '$$mdi:bluetooth-connect$$'}
+  - {type: none}
+  - $$mdi:rocket$$
+  - {type: none}
+  - {type: none}
+  - $$mdi:skip-previous$$
+  - $$mdi:play-pause$$
+  - $$mdi:skip-next$$
+  - {type: none}
+  - {t: '$$mdi:keyboard-tab$$', h: num}
+  - {t: '$$mdi:keyboard-space$$', h: sym}
+  - {type: none}
+  - {type: held}
+combos:
+- p: [1, 2]
+  k: $$mdi:keyboard-esc$$
+  l: [base]
+- p: [7, 8]
+  k: $$mdi:backspace-outline$$
+  l: [base]
+- p: [21, 22]
+  k: $$mdi:alpha-w-box$$
+  l: [base]
+- p: [27, 28]
+  k: $$mdi:keyboard-return$$
+  l: [base]
+- p: [2, 3]
+  k: $$mdi:volume-off$$
+  l: [nav]
+- p: [20, 21]
+  k: $$mdi:bluetooth-off$$
+  l: [nav]
