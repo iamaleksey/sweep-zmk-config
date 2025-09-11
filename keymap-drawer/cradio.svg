@@ -382,15 +382,7 @@ path.combo {
 </g>
 <g class="combo combopos-1">
 <rect rx="6" ry="6" x="546" y="24" width="28" height="26" class="combo"/>
-<use href="#mdi:backspace-outline" xlink:href="#mdi:backspace-outline" x="553" y="30" height="14" width="14.0" class="combo tap glyph mdi:backspace-outline"/>
-</g>
-<g class="combo combopos-2">
-<rect rx="6" ry="6" x="98" y="136" width="28" height="26" class="combo"/>
-<use href="#mdi:alpha-w-box" xlink:href="#mdi:alpha-w-box" x="105" y="142" height="14" width="14.0" class="combo tap glyph mdi:alpha-w-box"/>
-</g>
-<g class="combo combopos-3">
-<rect rx="6" ry="6" x="546" y="136" width="28" height="26" class="combo"/>
-<use href="#mdi:keyboard-return" xlink:href="#mdi:keyboard-return" x="553" y="142" height="14" width="14.0" class="combo tap glyph mdi:keyboard-return"/>
+<use href="#mdi:alpha-w-box" xlink:href="#mdi:alpha-w-box" x="553" y="30" height="14" width="14.0" class="combo tap glyph mdi:alpha-w-box"/>
 </g>
 </g>
 </g>

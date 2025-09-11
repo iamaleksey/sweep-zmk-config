@@ -145,13 +145,7 @@ combos:
   k: $$mdi:keyboard-esc$$
   l: [base]
 - p: [7, 8]
-  k: $$mdi:backspace-outline$$
-  l: [base]
-- p: [21, 22]
   k: $$mdi:alpha-w-box$$
-  l: [base]
-- p: [27, 28]
-  k: $$mdi:keyboard-return$$
   l: [base]
 - p: [2, 3]
   k: $$mdi:volume-off$$
