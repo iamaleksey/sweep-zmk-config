@@ -126,8 +126,8 @@ layers:
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
   - $$mdi:backspace-outline$$
-  - {h: '1', s: '$$mdi:bluetooth-connect$$'}
-  - {h: '2', s: '$$mdi:bluetooth-connect$$'}
+  - {type: none}
+  - {type: none}
   - {type: none}
   - $$mdi:rocket$$
   - {type: none}
@@ -149,7 +149,4 @@ combos:
   l: [base]
 - p: [2, 3]
   k: $$mdi:volume-off$$
-  l: [nav]
-- p: [20, 21]
-  k: $$mdi:bluetooth-off$$
   l: [nav]
