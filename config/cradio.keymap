@@ -33,10 +33,10 @@
 
 #define ___ &none
 
-#define BASE 0
-#define NUM  1
-#define SYM  2
-#define NAV  3
+#define ABC 0
+#define NUM 1
+#define SYM 2
+#define NAV 3
 
 #define MEH LS(LA(LCTRL))
 
@@ -72,7 +72,7 @@
         combo_esc {
             bindings = <&kp ESC>;
             key-positions = <1 2>;
-            layers = <BASE>;
+            layers = <ABC>;
             timeout-ms = <50>;
             require-prior-idle-ms = <100>;
         };
@@ -80,7 +80,7 @@
         combo_caps_word {
             bindings = <&caps_word>;
             key-positions = <7 8>;
-            layers = <BASE>;
+            layers = <ABC>;
             timeout-ms = <50>;
             require-prior-idle-ms = <100>;
         };
@@ -97,8 +97,8 @@
     keymap {
         compatible = "zmk,keymap";
 
-        base_layer {
-            display-name = "base";
+        abc_layer {
+            display-name = "abc";
             bindings = <
     &kp Q        &kp W        &kp F        &kp P        &kp B        &kp J     &kp L        &kp U      &kp Y        &kp SEMI
     LCTRL_A      LALT_R       LCMD_S       LSHFT_T      &kp G        &kp M     RSHFT_N      RCMD_E     RALT_I       RCTRL_O
