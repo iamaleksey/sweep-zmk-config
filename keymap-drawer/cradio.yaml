@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: cradio}
 layers:
-  base:
+  abc:
   - Q
   - W
   - F
@@ -143,10 +143,10 @@ layers:
 combos:
 - p: [1, 2]
   k: $$mdi:keyboard-esc$$
-  l: [base]
+  l: [abc]
 - p: [7, 8]
   k: $$mdi:alpha-w-box$$
-  l: [base]
+  l: [abc]
 - p: [2, 3]
   k: $$mdi:volume-off$$
   l: [nav]
