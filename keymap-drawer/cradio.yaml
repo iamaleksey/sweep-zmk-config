@@ -97,9 +97,9 @@ layers:
   - '}'
   - {type: none}
   - {type: none}
+  - '`'
   - '['
   - ']'
-  - '`'
   - \
   - {type: none}
   - {type: held}
