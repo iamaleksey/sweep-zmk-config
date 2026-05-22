@@ -2,6 +2,9 @@ parse_config:
   sticky_label: $$mdi:gesture-tap-hold$$
 
   raw_binding_map:
+    "&kp RA(N3)": "£"
+    "&kp RA(LS(N2))": "€"
+
     "&none":
       tap: ""
       type: none
