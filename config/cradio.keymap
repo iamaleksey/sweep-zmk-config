@@ -123,9 +123,9 @@
         sym_layer {
             display-name = "sym";
             bindings = <
-    &kp TILDE    &kp CARET    &kp AMPS     &kp PIPE     ___          ___       &kp UNDER    &kp EXCL   &kp DLLR     POUND
-    &kp STAR     &kp PLUS     &kp LPAR     &kp RPAR     ___          ___       &kp MINUS    &kp EQUAL  &kp DQT      &kp SQT
-    EURO         &kp PRCNT    &kp LBRC     &kp RBRC     &kp HASH     &kp AT    &kp GRAVE    &kp LBKT   &kp RBKT     &kp BSLH
+    &kp TILDE    &kp CARET    &kp AMPS     &kp PIPE     ___          ___       &kp UNDER    POUND      &kp DLLR     EURO
+    &kp STAR     &kp LPAR     &kp RPAR     &kp PLUS     ___          ___       &kp MINUS    &kp EQUAL  &kp DQT      &kp SQT
+    &kp PRCNT    &kp LBRC     &kp RBRC     &kp EXCL     &kp HASH     &kp AT    &kp GRAVE    &kp LBKT   &kp RBKT     &kp BSLH
                                            ___          ___          ___       NAV_RET
             >;
         };
