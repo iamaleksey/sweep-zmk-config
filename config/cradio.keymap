@@ -125,7 +125,7 @@
             bindings = <
     &kp TILDE    &kp CARET    &kp AMPS     &kp PIPE     ___          ___       &kp UNDER    POUND      &kp DLLR     EURO
     &kp STAR     &kp LPAR     &kp RPAR     &kp PLUS     ___          ___       &kp MINUS    &kp EQUAL  &kp DQT      &kp SQT
-    &kp PRCNT    &kp LBRC     &kp RBRC     &kp EXCL     &kp HASH     &kp AT    &kp GRAVE    &kp LBKT   &kp RBKT     &kp BSLH
+    &kp PRCNT    &kp LBRC     &kp RBRC     &kp AT       &kp HASH     &kp GRAVE &kp EXCL     &kp LBKT   &kp RBKT     &kp BSLH
                                            ___          ___          ___       NAV_RET
             >;
         };
